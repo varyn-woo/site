@@ -1,3 +1,13 @@
+/*
+    Name: Lorem Hovik
+    CS 101 Spring 2021
+    Date: April 1st, 2021
+    This is the styles.css page for my portfolio of web development work.
+    It is used by all pages in my portfolio to give the site a consistent
+    look and feel.
+*/
+
+
 @font-face {
     font-family: 'Bebas Neue';
     src: url('./Fonts/BebasNeue-Regular.eot');
@@ -34,70 +44,103 @@
     font-display: swap;
 }
 
-li {
-  list-style-type: "-";
-}
-
-a {
-  font-family: "Open Sans Condensed";
-  font-size: 30px;
-  color: #515b85;
-}
-
-#icon{
-  height: 160px;
-  width: 160px;
-  padding: 30px;
-  padding-top: 0px;
-  float: left;
-}
-
-nav > ul > li {
-  float: left;
-  display: inline;
-  padding-right: 50px;
-}
-
-nav > ul > li > a {
-  color: #FFFFFF;
-  font-family: "Montserrat";
-  text-decoration: none;
-}
-
-nav > ul > li > a:hover {
-  color: #8a9adb;
+* {
+    font-family: "sans-serif";
 }
 
 h1, h2 {
-  font-family: "Bebas Neue";
+    font-family: "Bebas Neue";
 }
 
-p {
-  font-family: "Open Sans Condensed";
-  font-size: 30px;
+p, li {
+    font-family: "Open Sans Condensed";
+    font-size: 30px;
 }
 
 h1 {
-  font-size: 60px;
-  margin-bottom: 25px;
+    font-size: 60px;
+    margin-bottom: 25px;
 }
 
 h2 {
-  line-height: 0px;
-  margin-top: 60px;
-  font-size: 40px;
+    line-height: 0px;
+    margin-top: 60px;
+    font-size: 40px;
 }
 
 main {
-  margin-left: 220px;
-  margin-right: 220px;
+    margin-left: 220px;
+    margin-right: 220px;
 }
 
 nav {
-  background-color: #000000;
-  height: 60px;
-  padding-top: 15px;
-  font-size: 15px;
-  vertical-align: middle;
-  letter-spacing: 5px;
+    background-color: #000000;
+    height: 60px;
+    padding-top: 15px;
+    font-size: 15px;
+    vertical-align: middle;
+    letter-spacing: 5px;
+}
+
+li {
+    list-style-type: "-";
+}
+
+a {
+    font-family: "Open Sans Condensed";
+    font-size: 30px;
+    color: #515b85;
+    text-decoration: none;
+}
+
+aside {
+    float: right;
+}
+
+#icon{
+    height: 160px;
+    width: 160px;
+    padding: 30px;
+    padding-top: 0px;
+    float: left;
+}
+
+nav > ul > li {
+    float: left;
+    display: inline;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+nav > ul > li > a {
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+
+nav > ul > li > a:hover {
+    color: #8a9adb;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.gallery {
+    margin-left: 220px;
+    margin-right: 0;
+}
+
+.column {
+    flex: 25%;
+    max-width: 20%;
+    padding: 0 4px;
+}
+
+.column > img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
