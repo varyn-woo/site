@@ -2,21 +2,21 @@
     Name: Varyn Woo
     CS 101 Spring 2021
     Date: April 5th, 2021
-    Please don't grade this page yet... it's not complete and acts solely as a placeholder so the
-    navigation bar links to something. I don't think there's anything wrong with it but it's not
-    finished and won't be properly documented until I figure out what it'll look like.
+    This is the resume.html page for my personal website, which displays a google doc featuring my
+    resume. It links to all fo the other pages in my personal website (see
+    home.html for more detailed info).
 -->
 
 <!doctype html>
 <html lang="en">
     <head>
         <title>Resume</title>
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <section>
-            <img id="icon" src="./Images/pfp.jpg" alt="Varyn's hand-drawn profile pic">
+            <img class="icon" src="images/pfp.jpg" alt="Varyn's hand-drawn profile pic">
             <h1>Resume</h1>
         </section>
         <nav>
@@ -25,20 +25,19 @@
                     <a href="home.html">Home</a>
                 </li>
                 <li>
-                    <a href="./resume.html">Resume</a>
+                    <a href="resume.html">Resume</a>
                 </li>
                 <li>
-                    <a href="./code.html">Code Portfolio</a>
+                    <a href="code.html">Code Portfolio</a>
                 </li>
                 <li>
-                    <a href="./art.html">Art Portfolio</a>
+                    <a href="art.html">Art Portfolio</a>
                 </li>
             </ul>
         </nav>
         <main>
-            <p>
-                This page is not yet ready! Resume coming soon. :)
-            </p>
+            <!-- it's an embedded Google Doc yay! :) -->
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vSDzG4s9SQaEGDJbfIMb4xKIqwAIfUueY8iHvhd-pSxzuZvbF0RlsSTVrJS8ovguCLeEvpMSAc8S7bK/pub?embedded=true"></iframe>
         </main>
     </body>
 </html>
